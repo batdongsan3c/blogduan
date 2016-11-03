@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
   // dùng sự kiện cuộn chuột để bắt thông tin đã cuộn được chiều dài là bao nhiêu.
     $(window).scroll(function(){
     // Nếu cuộn được hơn 150px rồi
-        if($(this).scrollTop()>150){
+        if($(this).scrollTop()>200){
       // Tiến hành show menu ra    
         TopFixMenu.show();
         }else{
